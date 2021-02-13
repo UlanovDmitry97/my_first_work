@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.page-header {
+    width: 100%;
+    background-color: #445162;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.page-header-wrp {}
+
+.page-header-title {}
+
+.page-header-list {}
+
+.page-header-photo {}
