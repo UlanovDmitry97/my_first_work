@@ -342,7 +342,12 @@ body {
     color: #445161;
 }
 
-.buy_it_now-wrp {}
+.buy_it_now-wrp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 
 .buy_it_now-card {
     width: 300px;
@@ -352,6 +357,19 @@ body {
     border: 2px solid #445162;
     box-sizing: border-box;
     border-radius: 10px;
+}
+
+.buy_it_now-wrp div:nth-child(1) {
+    min-height: 306px;
+}
+
+.buy_it_now-wrp div:nth-child(2) {
+    min-height: 404px;
+    margin: 0 45px 0 45px;
+}
+
+.buy_it_now-wrp div:nth-child(3) {
+    min-height: 499px;
 }
 
 .buy_it_now-card-title {
@@ -400,5 +418,17 @@ body {
     font-size: 18px;
     line-height: 18px;
     font-weight: 700;
+    color: #445161;
+    border: none;
+    outline: none;
+}
+
+.buy_it_now-card-btn:hover {
+    background-color: #22262b;
+    color: #ffffff;
+}
+
+.buy_it_now-card-btn:active {
+    background-color: #ffffff;
     color: #445161;
 }
