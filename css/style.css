@@ -612,7 +612,7 @@ body {
     display: block;
     width: 200px;
     text-decoration: none;
-    margin: 0 0 0 0px;
+    margin: 0 0 20px 0px;
     width: 200px;
     height: 40px;
     border-radius: 10px;
@@ -634,6 +634,47 @@ body {
 .footer-btn:active {
     background-color: #ffffff;
     color: #445161;
+}
+
+.footer-icon {
+    display: flex;
+}
+
+.footer-icon-item {
+    display: block;
+    height: 42px;
+    width: 42px;
+    margin: 0 10px 0 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.footer-icon-item:last-child {
+    margin: 0;
+}
+
+.footer-icon-item:hover {
+    background-color: black;
+}
+
+.footer-icon-item:active {
+    background-color: #ffffff;
+}
+
+.fab {
+    color: #445162;
+    font-size: 20px;
+}
+
+.footer-icon-item:hover>.fab {
+    color: #ffffff;
+}
+
+.footer-icon-item:active>.fab {
+    color: #445162;
 }
 
 .footer-copy {
